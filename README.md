@@ -3,7 +3,7 @@
   
   
 Authors : Nikhil Kumar Singh cniks117@gmail.com  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Indranil Saha saha.indra@gmail.com  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Indranil Saha saha.indra@gmail.com  
   
 *** Requirements ***  
 Matlab2017a  
