@@ -1,0 +1,48 @@
+*************************
+select 1 for Automatic transmission
+select 2 for Abstract furl control
+select 3 for Neural Network based maglev
+select 4 for Anti Lock braking system
+select 5 for helicopter
+*******************************
+enter the model number4
+enter the specification number4
+---------------------------------------
+selected model is4
+---------------------------------------
+--------------------------------------
+selected specification is phi4
+---------------------------------------
+---------------------------------------
+flattening the modelabsbrake
+---------------------------------------
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('expand_subsystem', '/home/nikhil/breach_master/Examples/EMSOFT2020/expand_subsystem.m', 117)" style="font-weight:bold">expand_subsystem</a> (<a href="matlab: opentoline('/home/nikhil/breach_master/Examples/EMSOFT2020/expand_subsystem.m',117,0)">line 117</a>)
+Invalid inputs specified for method 'get'
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_script', '/home/nikhil/breach_master/Examples/EMSOFT2020/main_script.m', 32)" style="font-weight:bold">main_script</a> (<a href="matlab: opentoline('/home/nikhil/breach_master/Examples/EMSOFT2020/main_script.m',32,0)">line 32</a>)
+expand_subsystem; % flattening script
+} 
+clear all;
+init_absbrake
+Initializing Breach from folder /home/nikhil/breach_master...
+Found var I in base workspace used by absbrake_expanded_breach/Gain4.
+Found var PBmax in base workspace used by absbrake_expanded_breach/Brakepressure.
+Found var Rr in base workspace used by absbrake_expanded_breach/Gain.
+Found var TB in base workspace used by absbrake_expanded_breach/HydraulicLag.
+Found var ctrl in base workspace used by absbrake_expanded_breach/Gain3.
+Found var g in base workspace used by absbrake_expanded_breach/Weight.
+Found var m in base workspace used by absbrake_expanded_breach/Gain1.
+Found var mu in base workspace used by absbrake_expanded_breach/mu-slipcurve.
+Found mu, 1 21 table -  Set 'FindTables' option to true to generate table parameters.
+Found var slip in base workspace used by absbrake_expanded_breach/mu-slipcurve.
+Found slip, 1 21 table -  Set 'FindTables' option to true to generate table parameters.
+Found var v0 in base workspace used by absbrake_expanded_breach/Vehiclespeed.
+Elapsed time is 14.785769 seconds.
+time for interfacing
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('STL_ReadFile', '/home/nikhil/breach_master/Core/STL_ReadFile.m', 43)" style="font-weight:bold">STL_ReadFile</a> (<a href="matlab: opentoline('/home/nikhil/breach_master/Core/STL_ReadFile.m',43,0)">line 43</a>)
+Couldn't open file stl/absbrake_specs.stl
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('init_absbrake', '/home/nikhil/breach_master/Examples/EMSOFT2020/init_absbrake.m', 29)" style="font-weight:bold">init_absbrake</a> (<a href="matlab: opentoline('/home/nikhil/breach_master/Examples/EMSOFT2020/init_absbrake.m',29,0)">line 29</a>)
+STL_ReadFile('stl/absbrake_specs.stl');
+} 
+main_script
