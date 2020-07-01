@@ -1,23 +1,5 @@
 %%% README file
 
-*** Requirements ***
-Matlab2017a
-BREACH1.5.2
-python3
-libraries: networkx, matplotlib, py-xml, graphviz
-(The author uses Ubuntu16.04 OS)
-
-
-**** STEPS **** 
-1. Download BREACH package 
-2. run the script InstallBreach.m
-3. run the script InitBreach.m
-4. Save the package EMSOFT2020 inside the breach root folder
-5. run the script main_script.m (select the desired model and 
-specification described below).
-
-
-
 This folder consists of five base Simulink Models :
 1. Autotrans_shift.slx
 2. AbstractFuelControl_M11.slx
