@@ -3,7 +3,7 @@
   
   
 Authors : Nikhil Kumar Singh cniks117@gmail.com  
-          Indranil Saha saha.indra@gmail.com  
+&nbsp;&nbsp; Indranil Saha saha.indra@gmail.com  
   
 *** Requirements ***  
 Matlab2017a  
@@ -23,5 +23,5 @@ specification number.
   
     
 This repo contains two folders:  
-breach contains BREACH toolbox  
-src contains the implementation of BLARS.  
+breach/ contains BREACH toolbox  
+src/ contains the implementation of BLARS.  
