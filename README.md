@@ -1,4 +1,5 @@
-# BLARS (**B**ug **L**ocalisation **A**nd **R**epair of **S**imulink models)
+# BLARS
+(**B**ug **L**ocalisation **A**nd **R**epair of **S**imulink models)
 Authors : Nikhil Kumar Singh cniks117@gmail.com  
           Indranil Saha saha.indra@gmail.com  
   
