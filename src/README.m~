@@ -45,7 +45,5 @@ Important Points ***
 1. Need to annotate each signals in the Simulink model (or atleast those 
    which you need to be analysed. This is necessary as only then Simulink 
    can identify each signal uniquely.
-2. The default value of a parameter is generally defined using a name. Instead 
-   we need that instead default value is given directly. For instance in the
-   parameter tuning script we have defined the default values of a parameter
-   directly.
+2. The default value of a parameter is generally defined using a constantvariable   
+    

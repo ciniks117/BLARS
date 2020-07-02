@@ -145,8 +145,8 @@ Stateflow block in the Simulink block diagram.
       <P Name="ModifiedByFormat">%&lt;Auto&gt;</P>
       <P Name="LastModifiedBy">nikhil</P>
       <P Name="ModifiedDateFormat">%&lt;Auto&gt;</P>
-      <P Name="LastModifiedDate">Thu Jul 02 01:05:25 2020</P>
-      <P Name="RTWModifiedTimeStamp">515552725</P>
+      <P Name="LastModifiedDate">Thu Jul 02 08:44:53 2020</P>
+      <P Name="RTWModifiedTimeStamp">515580293</P>
       <P Name="ModelVersionFormat">1.%&lt;AutoIncrement:320&gt;</P>
       <P Name="ConfigurationManager">none</P>
     </ConfigManagerSettings>
@@ -1937,14 +1937,14 @@ Default S-Function target.
         <P Name="SrcPort">1</P>
         <P Name="Points">[180, 0; 0, 47]</P>
         <Branch>
-          <P Name="ZOrder">51</P>
+          <P Name="ZOrder">52</P>
           <P Name="Labels">[1, 0]</P>
           <P Name="Points">[0, 358]</P>
           <P Name="DstBlock">ThresholdCalculation</P>
           <P Name="DstPort">1</P>
         </Branch>
         <Branch>
-          <P Name="ZOrder">37</P>
+          <P Name="ZOrder">36</P>
           <P Name="Points">[168, 0; 0, -312]</P>
           <Branch>
             <P Name="ZOrder">56</P>
@@ -2015,7 +2015,7 @@ Default S-Function target.
         <P Name="SrcPort">1</P>
         <P Name="Points">[189, 0]</P>
         <Branch>
-          <P Name="ZOrder">46</P>
+          <P Name="ZOrder">44</P>
           <P Name="Points">[0, 21; -238, 0; 0, -196]</P>
           <P Name="DstBlock">EngineTorque</P>
           <P Name="DstPort">1</P>

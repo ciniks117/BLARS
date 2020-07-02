@@ -16,7 +16,7 @@ old_rob=0;
 newrob=0;
 max_rob=log(0);
 
-index=1; %% most suspected signal
+index=1;
 
 %global handle;
 %global block;
@@ -57,9 +57,8 @@ while alpha>0 && alpha<2
            block = get(handle);
        end
        
-    end
+     end
   
-    
  if Map1(char(sind(index)))==1
        newval=get_param(handle,block.BlockType);
        newval=str2num(newval);

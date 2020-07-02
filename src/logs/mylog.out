@@ -13,12 +13,36 @@ selected model is1
 --------------------------------------
 selected specification is phi1
 ---------------------------------------
+[Warning: The value of local variables may have been changed to match the globals.  Future versions of MATLAB
+will require that you declare a variable to be global before you use that variable.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('expand_subsystem', '/home/nikhil/BLARS/src/expand_subsystem.m', 4)" style="font-weight:bold">expand_subsystem</a> (<a href="matlab: opentoline('/home/nikhil/BLARS/src/expand_subsystem.m',4,0)">line 4</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_script', '/home/nikhil/BLARS/src/main_script.m', 34)" style="font-weight:bold">main_script</a> (<a href="matlab: opentoline('/home/nikhil/BLARS/src/main_script.m',34,0)">line 34</a>)] 
+[Warning: The value of local variables may have been changed to match the globals.  Future versions of MATLAB
+will require that you declare a variable to be global before you use that variable.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('expand_subsystem', '/home/nikhil/BLARS/src/expand_subsystem.m', 5)" style="font-weight:bold">expand_subsystem</a> (<a href="matlab: opentoline('/home/nikhil/BLARS/src/expand_subsystem.m',5,0)">line 5</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_script', '/home/nikhil/BLARS/src/main_script.m', 34)" style="font-weight:bold">main_script</a> (<a href="matlab: opentoline('/home/nikhil/BLARS/src/main_script.m',34,0)">line 34</a>)] 
 ---------------------------------------
 flattening the modelAutotrans_shift
 ---------------------------------------
+[Warning: This is the old usage of save_system, which will not work in future releases.
+Type "help save_system" for more information] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DAStudio.warning', '/usr/local/MATLAB/R2017a/toolbox/shared/dastudio/+DAStudio/warning.m', 28)" style="font-weight:bold">DAStudio.warning</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/shared/dastudio/+DAStudio/warning.m',28,0)">line 28</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('save_system>i_warn_old_usage', '/usr/local/MATLAB/R2017a/toolbox/simulink/simulink/save_system.m', 178)" style="font-weight:bold">save_system>i_warn_old_usage</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/simulink/simulink/save_system.m',178,0)">line 178</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('save_system>i_save_system', '/usr/local/MATLAB/R2017a/toolbox/simulink/simulink/save_system.m', 54)" style="font-weight:bold">save_system>i_save_system</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/simulink/simulink/save_system.m',54,0)">line 54</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('save_system', '/usr/local/MATLAB/R2017a/toolbox/simulink/simulink/save_system.m', 35)" style="font-weight:bold">save_system</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/simulink/simulink/save_system.m',35,0)">line 35</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('expand_subsystem', '/home/nikhil/BLARS/src/expand_subsystem.m', 128)" style="font-weight:bold">expand_subsystem</a> (<a href="matlab: opentoline('/home/nikhil/BLARS/src/expand_subsystem.m',128,0)">line 128</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_script', '/home/nikhil/BLARS/src/main_script.m', 34)" style="font-weight:bold">main_script</a> (<a href="matlab: opentoline('/home/nikhil/BLARS/src/main_script.m',34,0)">line 34</a>)] 
+[Warning: Block diagram 'Autotrans_shift' is not loaded, so it can't be closed. You can disable this warning
+by using 0 as the second argument in the close_system command.
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('close_system>i_builtin', '/usr/local/MATLAB/R2017a/toolbox/simulink/simulink/close_system.m', 74)" style="font-weight:bold">close_system>i_builtin</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/simulink/simulink/close_system.m',74,0)">line 74</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('close_system>i_close_system', '/usr/local/MATLAB/R2017a/toolbox/simulink/simulink/close_system.m', 48)" style="font-weight:bold">close_system>i_close_system</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/simulink/simulink/close_system.m',48,0)">line 48</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('close_system', '/usr/local/MATLAB/R2017a/toolbox/simulink/simulink/close_system.m', 37)" style="font-weight:bold">close_system</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/simulink/simulink/close_system.m',37,0)">line 37</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('expand_subsystem', '/home/nikhil/BLARS/src/expand_subsystem.m', 132)" style="font-weight:bold">expand_subsystem</a> (<a href="matlab: opentoline('/home/nikhil/BLARS/src/expand_subsystem.m',132,0)">line 132</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_script', '/home/nikhil/BLARS/src/main_script.m', 34)" style="font-weight:bold">main_script</a> (<a href="matlab: opentoline('/home/nikhil/BLARS/src/main_script.m',34,0)">line 34</a>)] 
 #############################
 time for flattening
-Elapsed time is 6.911052 seconds.
+Elapsed time is 56.601348 seconds.
 Initializing Breach from folder /home/nikhil/BLARS/breach...
 Found var Iei in model workspace used by Autotrans_shift_expanded_breach/engine+impellerinertia.
 Found var Iv in model workspace used by Autotrans_shift_expanded_breach/VehicleInertia.
@@ -50,7 +74,7 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-         2                        1.8               [-2.68277e+02]    (-2.68277e+02)
+         2                        2.0               [-2.68277e+02]    (-2.68277e+02)
 
  ---- Best value -268.277 found with
         brake_u1 = 325
@@ -65,7 +89,7 @@ Eval objective function on 160 initial parameters.
 Falsified with obj = -268.277
 #############################
 time for falsification
-Elapsed time is 15.797639 seconds.
+Elapsed time is 16.981281 seconds.
     'RPM'
 
 
@@ -86,8 +110,7 @@ the suspected signals are
 
 #############################
 time for bug localisation
-Elapsed time is 15.109400 seconds.
-initialize param
+Elapsed time is 20.831775 seconds.
 ------------------ITERATION
      2
 
@@ -241,7 +264,7 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-         2                        0.9               [-1.50000e+03]    (-1.50000e+03)
+         2                        1.0               [-1.50000e+03]    (-1.50000e+03)
 
  ---- Best value -1500 found with
         brake_u1 = 325
@@ -353,7 +376,7 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-         2                        1.0               [-1.50000e+03]    (-1.50000e+03)
+         2                        0.9               [-1.50000e+03]    (-1.50000e+03)
 
  ---- Best value -1500 found with
         brake_u1 = 325
@@ -409,7 +432,7 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-         2                        1.0               [-1.50000e+03]    (-1.50000e+03)
+         2                        0.9               [-1.50000e+03]    (-1.50000e+03)
 
  ---- Best value -1500 found with
         brake_u1 = 325
@@ -465,7 +488,7 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-         2                        1.0               [-1.50000e+03]    (-1.50000e+03)
+         2                        0.9               [-1.50000e+03]    (-1.50000e+03)
 
  ---- Best value -1500 found with
         brake_u1 = 325
@@ -633,7 +656,7 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-         2                        1.0               [-1.50000e+03]    (-1.50000e+03)
+         2                        0.9               [-1.50000e+03]    (-1.50000e+03)
 
  ---- Best value -1500 found with
         brake_u1 = 325
@@ -648,7 +671,6 @@ Eval objective function on 160 initial parameters.
 Falsified with obj = -1500
        -1500
 
-initialize param
 ------------------ITERATION
     12
 
@@ -690,16 +712,16 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-        10                        4.1               [+3.50000e+03]    (+4.82153e+01)
-        20                        7.8               [+6.16308e+01]    (+4.82153e+01)
-        30                       11.3               [+2.66287e+03]    (+4.82153e+01)
-        40                       14.9               [+2.66287e+03]    (+4.82153e+01)
-        50                       18.5               [+3.50000e+03]    (+4.82153e+01)
-        60                       22.1               [+3.50000e+03]    (+4.82153e+01)
-        70                       25.6               [+6.16308e+01]    (+4.82153e+01)
-        80                       29.3               [+2.90466e+03]    (+4.82153e+01)
-        90                       32.9               [+4.32980e+02]    (+4.82153e+01)
-       100                       36.4               [+7.10151e+01]    (+4.82153e+01)
+        10                        4.0               [+3.50000e+03]    (+4.82153e+01)
+        20                        7.3               [+6.16308e+01]    (+4.82153e+01)
+        30                       10.5               [+2.66287e+03]    (+4.82153e+01)
+        40                       13.7               [+2.66287e+03]    (+4.82153e+01)
+        50                       17.1               [+3.50000e+03]    (+4.82153e+01)
+        60                       20.3               [+3.50000e+03]    (+4.82153e+01)
+        70                       23.6               [+6.16308e+01]    (+4.82153e+01)
+        80                       26.8               [+2.90466e+03]    (+4.82153e+01)
+        90                       30.1               [+4.32980e+02]    (+4.82153e+01)
+       100                       33.3               [+7.10151e+01]    (+4.82153e+01)
 
  ---- Best value 48.2153 found with
         brake_u1 = 0
@@ -720,7 +742,7 @@ No falsifying trace found.
 *******************************************
 #############################
 time for model repair
-Elapsed time is 97.984672 seconds.
+Elapsed time is 96.449842 seconds.
 Found var Iei in model workspace used by Autotrans_shift_expanded_breach/engine+impellerinertia.
 Found var Iv in model workspace used by Autotrans_shift_expanded_breach/VehicleInertia.
 Found var Kfactor in model workspace used by Autotrans_shift_expanded_breach/FactorK.
@@ -750,9 +772,9 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-        10                        4.5               [+1.00000e+00]    (+1.00000e+00)
-        20                        8.7               [+1.00000e+00]    (+1.00000e+00)
-        28                       12.2               [-9.51102e-03]    (-9.51102e-03)
+        10                        4.2               [+1.00000e+00]    (+1.00000e+00)
+        20                        8.1               [+1.00000e+00]    (+1.00000e+00)
+        28                       11.3               [-9.51102e-03]    (-9.51102e-03)
 
  ---- Best value -0.00951102 found with
         brake_u1 = 0
@@ -795,13 +817,11 @@ Found var uptab in model workspace used by Autotrans_shift_expanded_breach/Thres
 Found uptab, 6 4 table -  Set 'FindTables' option to true to generate table parameters.
 Found var upth in model workspace used by Autotrans_shift_expanded_breach/ThresholdCalculation/interp_up.
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
-MEvent. CASE!
-MEvent. CASE!
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-        10                        4.5               [+1.00000e+00]    (+1.00000e+00)
-        20                        8.7               [+1.00000e+00]    (+1.00000e+00)
-        28                       12.1               [-9.51102e-03]    (-9.51102e-03)
+        10                        4.4               [+1.00000e+00]    (+1.00000e+00)
+        20                        8.3               [+1.00000e+00]    (+1.00000e+00)
+        28                       11.5               [-9.51102e-03]    (-9.51102e-03)
 
  ---- Best value -0.00951102 found with
         brake_u1 = 0
@@ -816,7 +836,7 @@ Eval objective function on 160 initial parameters.
 Falsified with obj = -0.00951102
 #############################
 time for falsification
-Elapsed time is 15.277165 seconds.
+Elapsed time is 14.484724 seconds.
     'speed'
 
 
@@ -832,8 +852,7 @@ the suspected signals are
 
 #############################
 time for bug localisation
-Elapsed time is 12.092231 seconds.
-initialize param
+Elapsed time is 12.234112 seconds.
 ------------------ITERATION
      2
 
@@ -874,9 +893,9 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-        10                        4.0               [+5.80188e+00]    (+5.07866e+00)
-        20                        7.6               [+7.35647e+01]    (+5.07866e+00)
-        28                       10.5               [-9.51086e-03]    (-9.51086e-03)
+        10                        3.6               [+5.80188e+00]    (+5.07866e+00)
+        20                        7.0               [+7.35647e+01]    (+5.07866e+00)
+        28                        9.8               [-9.51086e-03]    (-9.51086e-03)
 
  ---- Best value -0.00951086 found with
         brake_u1 = 0
@@ -931,9 +950,9 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-        10                        3.9               [+5.80188e+00]    (+5.07843e+00)
-        20                        7.7               [+7.34872e+01]    (+5.07843e+00)
-        28                       10.8               [-9.51051e-03]    (-9.51051e-03)
+        10                        3.5               [+5.80188e+00]    (+5.07843e+00)
+        20                        6.9               [+7.34872e+01]    (+5.07843e+00)
+        28                        9.5               [-9.51051e-03]    (-9.51051e-03)
 
  ---- Best value -0.00951051 found with
         brake_u1 = 0
@@ -988,9 +1007,9 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-        10                        5.3               [+5.80188e+00]    (+5.08156e+00)
-        20                        9.6               [+7.33794e+01]    (+5.08156e+00)
-        28                       12.7               [-9.51009e-03]    (-9.51009e-03)
+        10                        3.8               [+5.80188e+00]    (+5.08156e+00)
+        20                        7.1               [+7.33794e+01]    (+5.08156e+00)
+        28                        9.9               [-9.51009e-03]    (-9.51009e-03)
 
  ---- Best value -0.00951009 found with
         brake_u1 = 0
@@ -1045,9 +1064,9 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-        10                        4.0               [+5.80188e+00]    (+5.08000e+00)
-        20                        7.6               [+7.32903e+01]    (+5.08000e+00)
-        28                       10.8               [-9.50957e-03]    (-9.50957e-03)
+        10                        3.7               [+5.80188e+00]    (+5.08000e+00)
+        20                        7.0               [+7.32903e+01]    (+5.08000e+00)
+        28                        9.8               [-9.50957e-03]    (-9.50957e-03)
 
  ---- Best value -0.00950957 found with
         brake_u1 = 0
@@ -1102,9 +1121,9 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-        10                        7.0               [+5.80188e+00]    (+5.08136e+00)
-        20                       13.6               [+7.30847e+01]    (+5.08136e+00)
-        28                       17.0               [-9.50893e-03]    (-9.50893e-03)
+        10                        3.6               [+5.80188e+00]    (+5.08136e+00)
+        20                        6.9               [+7.30847e+01]    (+5.08136e+00)
+        28                        9.7               [-9.50893e-03]    (-9.50893e-03)
 
  ---- Best value -0.00950893 found with
         brake_u1 = 0
@@ -1159,9 +1178,9 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-        10                        4.5               [+5.80188e+00]    (+5.08213e+00)
-        20                        8.7               [+7.28446e+01]    (+5.08213e+00)
-        28                       12.1               [-9.50816e-03]    (-9.50816e-03)
+        10                        5.2               [+5.80188e+00]    (+5.08213e+00)
+        20                        9.3               [+7.28446e+01]    (+5.08213e+00)
+        28                       12.2               [-9.50816e-03]    (-9.50816e-03)
 
  ---- Best value -0.00950816 found with
         brake_u1 = 0
@@ -1216,9 +1235,9 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-        10                        5.0               [+5.80188e+00]    (+5.08209e+00)
-        20                        8.9               [+7.25356e+01]    (+5.08209e+00)
-        28                       12.3               [-9.50721e-03]    (-9.50721e-03)
+        10                        3.7               [+5.80188e+00]    (+5.08209e+00)
+        20                        7.1               [+7.25356e+01]    (+5.08209e+00)
+        28                       10.0               [-9.50721e-03]    (-9.50721e-03)
 
  ---- Best value -0.00950721 found with
         brake_u1 = 0
@@ -1273,9 +1292,9 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-        10                        4.7               [+5.80188e+00]    (+5.08148e+00)
-        20                        9.1               [+7.21586e+01]    (+5.08148e+00)
-        28                       12.5               [-9.50604e-03]    (-9.50604e-03)
+        10                        3.6               [+5.80188e+00]    (+5.08148e+00)
+        20                        6.9               [+7.21586e+01]    (+5.08148e+00)
+        28                        9.6               [-9.50604e-03]    (-9.50604e-03)
 
  ---- Best value -0.00950604 found with
         brake_u1 = 0
@@ -1330,9 +1349,9 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-        10                        4.2               [+5.80188e+00]    (+5.08017e+00)
-        20                        8.7               [+7.16851e+01]    (+5.08017e+00)
-        28                       11.9               [-9.50461e-03]    (-9.50461e-03)
+        10                        3.7               [+5.80188e+00]    (+5.08017e+00)
+        20                        7.1               [+7.16851e+01]    (+5.08017e+00)
+        28                        9.8               [-9.50461e-03]    (-9.50461e-03)
 
  ---- Best value -0.00950461 found with
         brake_u1 = 0
@@ -1387,9 +1406,9 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-        10                        4.3               [+5.80189e+00]    (+5.08158e+00)
-        20                        8.7               [+7.10514e+01]    (+5.08158e+00)
-        28                       12.0               [-9.50281e-03]    (-9.50281e-03)
+        10                        3.6               [+5.80189e+00]    (+5.08158e+00)
+        20                        6.9               [+7.10514e+01]    (+5.08158e+00)
+        28                        9.6               [-9.50281e-03]    (-9.50281e-03)
 
  ---- Best value -0.00950281 found with
         brake_u1 = 0
@@ -1404,7 +1423,6 @@ Eval objective function on 160 initial parameters.
 Falsified with obj = -0.00950281
    -0.0095
 
-initialize param
 ------------------ITERATION
     12
 
@@ -1445,9 +1463,9 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-        10                        3.9               [+5.80188e+00]    (+5.08148e+00)
-        20                        7.7               [+7.34702e+01]    (+5.08148e+00)
-        28                       11.0               [-9.51040e-03]    (-9.51040e-03)
+        10                        3.6               [+5.80188e+00]    (+5.08148e+00)
+        20                        7.2               [+7.34702e+01]    (+5.08148e+00)
+        28                        9.9               [-9.51040e-03]    (-9.51040e-03)
 
  ---- Best value -0.0095104 found with
         brake_u1 = 0
@@ -1502,9 +1520,9 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-        10                        3.9               [+5.80188e+00]    (+5.07950e+00)
-        20                        7.6               [+7.31742e+01]    (+5.07950e+00)
-        28                       10.5               [-9.50921e-03]    (-9.50921e-03)
+        10                        3.8               [+5.80188e+00]    (+5.07950e+00)
+        20                        7.3               [+7.31742e+01]    (+5.07950e+00)
+        28                       10.1               [-9.50921e-03]    (-9.50921e-03)
 
  ---- Best value -0.00950921 found with
         brake_u1 = 0
@@ -1559,9 +1577,9 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-        10                        3.9               [+5.80188e+00]    (+5.08162e+00)
-        20                        7.6               [+7.25933e+01]    (+5.08162e+00)
-        28                       10.6               [-9.50734e-03]    (-9.50734e-03)
+        10                        3.7               [+5.80188e+00]    (+5.08162e+00)
+        20                        7.3               [+7.25933e+01]    (+5.08162e+00)
+        28                       10.0               [-9.50734e-03]    (-9.50734e-03)
 
  ---- Best value -0.00950734 found with
         brake_u1 = 0
@@ -1616,9 +1634,9 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-        10                        4.5               [+5.80188e+00]    (+5.08143e+00)
-        20                        8.9               [+7.16006e+01]    (+5.08143e+00)
-        28                       12.0               [-9.50435e-03]    (-9.50435e-03)
+        10                        3.8               [+5.80188e+00]    (+5.08143e+00)
+        20                        7.2               [+7.16006e+01]    (+5.08143e+00)
+        28                       10.0               [-9.50435e-03]    (-9.50435e-03)
 
  ---- Best value -0.00950435 found with
         brake_u1 = 0
@@ -1673,9 +1691,9 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-        10                        4.6               [+5.80189e+00]    (+5.08058e+00)
-        20                        8.9               [+6.98852e+01]    (+5.08058e+00)
-        28                       11.9               [-9.36402e-03]    (-9.36402e-03)
+        10                        3.7               [+5.80189e+00]    (+5.08058e+00)
+        20                        7.1               [+6.98852e+01]    (+5.08058e+00)
+        28                       10.0               [-9.36402e-03]    (-9.36402e-03)
 
  ---- Best value -0.00936402 found with
         brake_u1 = 0
@@ -1730,9 +1748,9 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-        10                        5.0               [+5.80189e+00]    (+5.07825e+00)
-        20                        9.4               [+6.70050e+01]    (+5.07825e+00)
-        28                       13.0               [-9.35281e-03]    (-9.35281e-03)
+        10                        3.8               [+5.80189e+00]    (+5.07825e+00)
+        20                        7.1               [+6.70050e+01]    (+5.07825e+00)
+        28                       10.0               [-9.35281e-03]    (-9.35281e-03)
 
  ---- Best value -0.00935281 found with
         brake_u1 = 0
@@ -1787,9 +1805,9 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-        10                        4.8               [+5.80197e+00]    (+5.07900e+00)
-        20                       10.6               [+6.10563e+01]    (+5.07900e+00)
-        28                       14.7               [-9.44933e-03]    (-9.44933e-03)
+        10                        3.8               [+5.80197e+00]    (+5.07900e+00)
+        20                        7.3               [+6.10563e+01]    (+5.07900e+00)
+        28                       10.1               [-9.44933e-03]    (-9.44933e-03)
 
  ---- Best value -0.00944933 found with
         brake_u1 = 0
@@ -1842,15 +1860,11 @@ Found var uptab in model workspace used by Autotrans_shift_expanded_breach/Thres
 Found uptab, 6 4 table -  Set 'FindTables' option to true to generate table parameters.
 Found var upth in model workspace used by Autotrans_shift_expanded_breach/ThresholdCalculation/interp_up.
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
-MEvent. CASE!
-MEvent. CASE!
-MEvent. CASE!
-MEvent. CASE!
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-        10                        4.6               [+5.80223e+00]    (+5.07911e+00)
-        20                        8.9               [+5.25899e+01]    (+5.07911e+00)
-        28                       12.4               [-9.52188e-03]    (-9.52188e-03)
+        10                        3.7               [+5.80223e+00]    (+5.07911e+00)
+        20                        7.1               [+5.25899e+01]    (+5.07911e+00)
+        28                        9.9               [-9.52188e-03]    (-9.52188e-03)
 
  ---- Best value -0.00952188 found with
         brake_u1 = 0
@@ -1903,13 +1917,11 @@ Found var uptab in model workspace used by Autotrans_shift_expanded_breach/Thres
 Found uptab, 6 4 table -  Set 'FindTables' option to true to generate table parameters.
 Found var upth in model workspace used by Autotrans_shift_expanded_breach/ThresholdCalculation/interp_up.
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
-MEvent. CASE!
-MEvent. CASE!
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-        10                        4.6               [+5.80775e+00]    (+5.08004e+00)
-        20                        8.3               [+3.98067e+01]    (+5.08004e+00)
-        28                       11.3               [-9.33970e-03]    (-9.33970e-03)
+        10                        3.7               [+5.80775e+00]    (+5.08004e+00)
+        20                        7.2               [+3.98067e+01]    (+5.08004e+00)
+        28                       10.0               [-9.33970e-03]    (-9.33970e-03)
 
  ---- Best value -0.0093397 found with
         brake_u1 = 0
@@ -1964,11 +1976,11 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-        10                        4.2               [+6.14601e+00]    (+5.27572e+00)
-        20                        7.9               [+2.73184e+01]    (+5.27572e+00)
-        30                       11.6               [+5.83452e+00]    (+1.25823e-01)
-        40                       15.3               [+5.82461e+00]    (+1.25823e-01)
-        46                       17.6               [-9.34561e-03]    (-9.34561e-03)
+        10                        4.0               [+6.14601e+00]    (+5.27572e+00)
+        20                        7.4               [+2.73184e+01]    (+5.27572e+00)
+        30                       10.9               [+5.83452e+00]    (+1.25823e-01)
+        40                       14.3               [+5.82461e+00]    (+1.25823e-01)
+        46                       16.5               [-9.34561e-03]    (-9.34561e-03)
 
  ---- Best value -0.00934561 found with
         brake_u1 = 325
@@ -1983,7 +1995,6 @@ Eval objective function on 160 initial parameters.
 Falsified with obj = -0.00934561
    -0.0093
 
-initialize param
 ------------------ITERATION
     22
 
@@ -2024,9 +2035,9 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-        10                        4.0               [+5.80188e+00]    (+5.07950e+00)
-        20                        7.8               [+7.32395e+01]    (+5.07950e+00)
-        28                       11.2               [-9.50951e-03]    (-9.50951e-03)
+        10                        3.8               [+5.80188e+00]    (+5.07950e+00)
+        20                        7.2               [+7.32395e+01]    (+5.07950e+00)
+        28                        9.9               [-9.50951e-03]    (-9.50951e-03)
 
  ---- Best value -0.00950951 found with
         brake_u1 = 0
@@ -2079,13 +2090,11 @@ Found var uptab in model workspace used by Autotrans_shift_expanded_breach/Thres
 Found uptab, 6 4 table -  Set 'FindTables' option to true to generate table parameters.
 Found var upth in model workspace used by Autotrans_shift_expanded_breach/ThresholdCalculation/interp_up.
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
-MEvent. CASE!
-MEvent. CASE!
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-        10                        5.2               [+5.80188e+00]    (+5.07892e+00)
-        20                       10.2               [+7.20695e+01]    (+5.07892e+00)
-        28                       13.9               [-9.50576e-03]    (-9.50576e-03)
+        10                        3.8               [+5.80188e+00]    (+5.07892e+00)
+        20                        7.1               [+7.20695e+01]    (+5.07892e+00)
+        28                        9.9               [-9.50576e-03]    (-9.50576e-03)
 
  ---- Best value -0.00950576 found with
         brake_u1 = 0
@@ -2140,9 +2149,9 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-        10                        5.6               [+5.80189e+00]    (+5.07842e+00)
-        20                       10.8               [+6.90185e+01]    (+5.07842e+00)
-        28                       14.7               [-9.36045e-03]    (-9.36045e-03)
+        10                        3.9               [+5.80189e+00]    (+5.07842e+00)
+        20                        7.4               [+6.90185e+01]    (+5.07842e+00)
+        28                       10.1               [-9.36045e-03]    (-9.36045e-03)
 
  ---- Best value -0.00936045 found with
         brake_u1 = 0
@@ -2197,9 +2206,9 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-        10                        5.6               [+5.80204e+00]    (+5.08112e+00)
-        20                       10.8               [+5.97126e+01]    (+5.08112e+00)
-        28                       14.9               [-9.51218e-03]    (-9.51218e-03)
+        10                        3.7               [+5.80204e+00]    (+5.08112e+00)
+        20                        7.2               [+5.97126e+01]    (+5.08112e+00)
+        28                       10.1               [-9.51218e-03]    (-9.51218e-03)
 
  ---- Best value -0.00951218 found with
         brake_u1 = 0
@@ -2254,9 +2263,9 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-        10                        5.2               [+5.80712e+00]    (+5.07904e+00)
-        20                       10.3               [+4.00420e+01]    (+5.07904e+00)
-        28                       14.4               [-9.50271e-03]    (-9.50271e-03)
+        10                        3.7               [+5.80712e+00]    (+5.07904e+00)
+        20                        7.3               [+4.00420e+01]    (+5.07904e+00)
+        28                       10.0               [-9.50271e-03]    (-9.50271e-03)
 
  ---- Best value -0.00950271 found with
         brake_u1 = 0
@@ -2311,16 +2320,16 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-        10                        5.4               [+7.47472e+00]    (+6.10883e+00)
-        20                       10.6               [+2.39016e+01]    (+6.10883e+00)
-        30                       15.9               [+6.88619e+00]    (+2.39491e+00)
-        40                       20.9               [+6.80943e+00]    (+2.39491e+00)
-        50                       25.9               [+6.54410e+00]    (+1.37923e+00)
-        60                       31.3               [+7.49961e+00]    (+1.37923e+00)
-        70                       37.3               [+2.06617e+01]    (+1.37923e+00)
-        80                       43.4               [+7.57653e+00]    (+1.37923e+00)
-        90                       48.0               [+8.35407e+00]    (+1.37923e+00)
-       100                       52.5               [+2.37048e+01]    (+1.37923e+00)
+        10                        3.8               [+7.47472e+00]    (+6.10883e+00)
+        20                        7.1               [+2.39016e+01]    (+6.10883e+00)
+        30                       10.6               [+6.88619e+00]    (+2.39491e+00)
+        40                       14.2               [+6.80943e+00]    (+2.39491e+00)
+        50                       17.7               [+6.54410e+00]    (+1.37923e+00)
+        60                       21.1               [+7.49961e+00]    (+1.37923e+00)
+        70                       24.9               [+2.06617e+01]    (+1.37923e+00)
+        80                       28.9               [+7.57653e+00]    (+1.37923e+00)
+        90                       32.7               [+8.35407e+00]    (+1.37923e+00)
+       100                       36.2               [+2.37048e+01]    (+1.37923e+00)
 
  ---- Best value 1.37923 found with
         brake_u1 = 325
@@ -2341,7 +2350,7 @@ No falsifying trace found.
 *******************************************
 #############################
 time for model repair
-Elapsed time is 502.475884 seconds.
+Elapsed time is 415.982315 seconds.
 Found var Iv in model workspace used by Autotrans_shift_expanded_breach/VehicleInertia.
 Found var Kfactor in model workspace used by Autotrans_shift_expanded_breach/FactorK.
 Found Kfactor, 21 1 table -  Set 'FindTables' option to true to generate table parameters.
@@ -2370,7 +2379,7 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-         2                        1.4               [-1.00000e+00]    (-1.00000e+00)
+         2                        1.0               [-1.00000e+00]    (-1.00000e+00)
 
  ---- Best value -1 found with
         brake_u1 = 325
@@ -2414,7 +2423,7 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-         2                        1.4               [-1.00000e+00]    (-1.00000e+00)
+         2                        1.1               [-1.00000e+00]    (-1.00000e+00)
 
  ---- Best value -1 found with
         brake_u1 = 325
@@ -2429,7 +2438,7 @@ Eval objective function on 160 initial parameters.
 Falsified with obj = -1
 #############################
 time for falsification
-Elapsed time is 5.053242 seconds.
+Elapsed time is 4.329805 seconds.
     'gear'
 
 
@@ -2439,19 +2448,20 @@ ans =
 
 the suspected signals are
     'lin_speed'
+    'RPM'
     'Nin'
-    'l8'
     'l2'
     'l12'
-    'RPM'
+    'l18'
+    'l8'
+    'turbinetorque'
 
 #############################
 time for bug localisation
-Elapsed time is 18.657841 seconds.
+Elapsed time is 15.030342 seconds.
 ######## using prev iter val ######
     6.9080
 
-initialize param
 ------------------ITERATION
      2
 
@@ -2492,7 +2502,7 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-         2                        1.5               [-1.00000e+00]    (-1.00000e+00)
+         2                        1.1               [-1.00000e+00]    (-1.00000e+00)
 
  ---- Best value -1 found with
         brake_u1 = 325
@@ -2547,7 +2557,7 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-         2                        1.4               [-1.00000e+00]    (-1.00000e+00)
+         2                        1.0               [-1.00000e+00]    (-1.00000e+00)
 
  ---- Best value -1 found with
         brake_u1 = 325
@@ -2602,16 +2612,16 @@ Found var upth in model workspace used by Autotrans_shift_expanded_breach/Thresh
 Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
 Eval objective function on 160 initial parameters.
 #calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-        10                        5.4               [+1.00000e+00]    (+1.00000e+00)
-        20                       10.5               [+1.00000e+00]    (+1.00000e+00)
-        30                       15.3               [+1.00000e+00]    (+1.00000e+00)
-        40                       19.9               [+1.00000e+00]    (+1.00000e+00)
-        50                       24.8               [+1.00000e+00]    (+1.00000e+00)
-        60                       29.4               [+1.00000e+00]    (+1.00000e+00)
-        70                       34.2               [+1.00000e+00]    (+1.00000e+00)
-        80                       39.1               [+1.00000e+00]    (+1.00000e+00)
-        90                       43.8               [+1.00000e+00]    (+1.00000e+00)
-       100                       48.7               [+1.00000e+00]    (+1.00000e+00)
+        10                        3.9               [+1.00000e+00]    (+1.00000e+00)
+        20                        7.4               [+1.00000e+00]    (+1.00000e+00)
+        30                       11.0               [+1.00000e+00]    (+1.00000e+00)
+        40                       14.6               [+1.00000e+00]    (+1.00000e+00)
+        50                       18.3               [+1.00000e+00]    (+1.00000e+00)
+        60                       21.9               [+1.00000e+00]    (+1.00000e+00)
+        70                       25.5               [+1.00000e+00]    (+1.00000e+00)
+        80                       29.1               [+1.00000e+00]    (+1.00000e+00)
+        90                       32.7               [+1.00000e+00]    (+1.00000e+00)
+       100                       36.5               [+1.00000e+00]    (+1.00000e+00)
 
  ---- Best value 1 found with
         brake_u1 = 0
@@ -2632,7 +2642,7 @@ No falsifying trace found.
 *******************************************
 #############################
 time for model repair
-Elapsed time is 69.586305 seconds.
+Elapsed time is 53.436322 seconds.
 Found var Iv in model workspace used by Autotrans_shift_expanded_breach/VehicleInertia.
 Found var Kfactor in model workspace used by Autotrans_shift_expanded_breach/FactorK.
 Found Kfactor, 21 1 table -  Set 'FindTables' option to true to generate table parameters.
@@ -2644,66 +2654,4 @@ Found Torkratio, 21 1 table -  Set 'FindTables' option to true to generate table
 Found var downtab in model workspace used by Autotrans_shift_expanded_breach/ThresholdCalculation/interp_down.
 Found downtab, 6 4 table -  Set 'FindTables' option to true to generate table parameters.
 Found var downth in model workspace used by Autotrans_shift_expanded_breach/ThresholdCalculation/interp_down.
-Found downth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
-Found var emap in model workspace used by Autotrans_shift_expanded_breach/EngineTorque.
-Found emap, 10 11 table -  Set 'FindTables' option to true to generate table parameters.
-Found var nevec in model workspace used by Autotrans_shift_expanded_breach/EngineTorque.
-Found nevec, 1 11 table -  Set 'FindTables' option to true to generate table parameters.
-Found var rload0 in model workspace used by Autotrans_shift_expanded_breach/RoadLoad.
-Found var rload2 in model workspace used by Autotrans_shift_expanded_breach/RoadLoad.
-Found var speedratio in model workspace used by Autotrans_shift_expanded_breach/FactorK.
-Found speedratio, 21 1 table -  Set 'FindTables' option to true to generate table parameters.
-Found var thvec in model workspace used by Autotrans_shift_expanded_breach/EngineTorque.
-Found thvec, 10 1 table -  Set 'FindTables' option to true to generate table parameters.
-Found var uptab in model workspace used by Autotrans_shift_expanded_breach/ThresholdCalculation/interp_up.
-Found uptab, 6 4 table -  Set 'FindTables' option to true to generate table parameters.
-Found var upth in model workspace used by Autotrans_shift_expanded_breach/ThresholdCalculation/interp_up.
-Found upth, 6 1 table -  Set 'FindTables' option to true to generate table parameters.
-MEvent. CASE!
-MEvent. CASE!
-MEvent. CASE!
-MEvent. CASE!
-MEvent. CASE!
-MEvent. CASE!
-MEvent. CASE!
-MEvent. CASE!
-Eval objective function on 160 initial parameters.
-#calls (max:  100)        time spent (max: 180)     [current  obj]     (current best) 
-        10                        5.6               [+1.00000e+00]    (+1.00000e+00)
-        20                       10.9               [+1.00000e+00]    (+1.00000e+00)
-        30                       16.4               [+1.00000e+00]    (+1.00000e+00)
-        40                       21.9               [+1.00000e+00]    (+1.00000e+00)
-        50                       27.3               [+1.00000e+00]    (+7.10294e-01)
-        60                       34.0               [+1.00000e+00]    (+7.10294e-01)
-        70                       40.6               [+1.00000e+00]    (+7.10294e-01)
-        80                       46.2               [+1.00000e+00]    (+7.10294e-01)
-        90                       51.9               [+1.00000e+00]    (+7.10294e-01)
-       100                       57.4               [+1.00000e+00]    (+7.10294e-01)
-
- ---- Best value 0.710294 found with
-        brake_u1 = 325
-        brake_u3 = 325
-        dt_u0 = 0.1
-        dt_u1 = 10
-        dt_u2 = 10
-        dt_u3 = 10
-        throttle_u0 = 100
-        throttle_u2 = 0
-
-No falsifying trace found.
-fixed model
-MEvent. CASE!
-MEvent. CASE!
-MEvent. CASE!
-MEvent. CASE!
-MEvent. CASE!
-MEvent. CASE!
-MEvent. CASE!
-MEvent. CASE!
-MEvent. CASE!
-MEvent. CASE!
-MEvent. CASE!
-MEvent. CASE!
-delete 'join.csv';
-    delete 'BrFalse_Robust_neg.csv'; 
-    delete 'BrFalse.csv'; 
+Found downth, 6 1 table -  Set 'FindTa
