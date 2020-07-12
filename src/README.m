@@ -1,6 +1,6 @@
 %%% README file
 
-This folder consists of five base Simulink Models :
+This examples folder in the main directory consists of five base Simulink Models :
 1. Autotrans_shift.slx
 2. AbstractFuelControl_M11.slx
 3. narmamaglev_v1.slx
@@ -39,7 +39,7 @@ execute the script "main_script.m" and select the appropriate model no and
 spec no among the options displayed in the matlab terminal.
 Refer modelno and specno from the paper.
 NOTE- The main_script.m creates a new file with suffix "_expanded" for the
-corresponding fixed model. This file is inside "repair" folder.
+corresponding fixed model. This file is inside "repaired_models" folder.
 
 Important Points ***
 1. Need to annotate each signals in the Simulink model (or atleast those 
