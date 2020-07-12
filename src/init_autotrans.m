@@ -1,5 +1,9 @@
 %% Interface Automatic Transmission model with Breach 
 
+% Folder = cd;
+% Folder = fullfile(Folder, '..');
+% addpath Folder/examples;
+%Autotrans_shift_vars;
 %tic
 newfile='Autotrans_shift_expanded';
 %newfile='Autotrans_shift_expanded';

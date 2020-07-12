@@ -32,4 +32,5 @@ AF_will_be_stable := ev_[0,9] (AF_stable)
 AF_alw_settle := alw_[10, 30] (AF_will_be_stable)
 
 
-phi_all_afc := ((AF_alw_ok) and (AF_ok_controller) and (AF_overshoot_req) and (AF_alw_settle))
+#phi_all_afc := ((AF_alw_ok) and (AF_ok_controller) and (AF_overshoot_req) and (AF_alw_settle))
+phi_all_afc := ((AF_alw_ok) and (AF_ok_controller) and (AF_overshoot_req))

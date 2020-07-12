@@ -31,6 +31,8 @@ end
 disp("---------------------------------------");
 disp("flattening the model"+file);
 disp("---------------------------------------");
+
+copyfile(strcat('../examples/',file,'.slx'));
 open_system(file);
 save_system(file,strcat(file,'.xml'),'ExportToXML',true);
 

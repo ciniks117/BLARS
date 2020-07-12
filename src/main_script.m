@@ -1,11 +1,11 @@
 %% main script for the ToolBox
 %% run it and select the modelno and specno
 
-delete mylog.out;
+delete last_run.log;
 clear all;
 close all;
 
-diary mylog.out;
+diary last_run.log;
 setenv PYTHON 'LD_LIBRARY_PATH="" python3';
 %%export LD_PRELOAD=/lib/x86_64-linux-gnu/libexpat.so.1
 addpath models;
@@ -69,7 +69,7 @@ while fixed==0
   if falsif_pb.obj_best>=0
     disp("fixed model");
     fixed=1;
-    move_all;
+    cleanup;
     return;
   else
     disp("fixing next sub");

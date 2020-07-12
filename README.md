@@ -14,14 +14,14 @@ libraries: networkx, matplotlib, py-xml, graphviz
   
   
 **** STEPS ****  
-1. Goto breach folder  
-2. run the script InstallBreach.m  
-3. run the script InitBreach.m  
-4. run the script main_script.m in src folder  
-5. In the command prompt, select the model number and
+1. Download breach and run script InstallBreach.m and InitBreach.m  
+2. run the script main_script.m in src folder  
+3. In the command prompt, select the model number and
 specification number.  
   
     
 This repo contains two folders:  
-breach/ contains BREACH toolbox  
-src/ contains the implementation of BLARS.  
+src/ contains the source code of BLARS.  
+examples/ contains the Simulink models used for experiments.
+repaired_models/ directory will contain the recently repaired models.
+utils/ folder contains some auxiliary scripts 
